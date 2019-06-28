@@ -17,7 +17,7 @@ Data sets consist of multiple multivariate time series. Each data set is further
 The  engine  is  operating  normally  at  the  start  of  each  time  series,  and  starts  to  degrade  at  some  point during the series. In the training set, the degradation grows in magnitude until a predefined threshold is reached beyond which it is not preferable to operate the engine. In the test set, the time series ends some time  prior  to  complete  degradation.  The  objective  of  the  competition  is  to  predict  the  number  of remaining operational cycles before in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate properly. 
 
 ### Usage
-The data are provided as a zip-compressed text file with 26 columns of numbers, separated by spaces. Each row is a snapshot of data taken during a single operational cycle; each column is a different variable. 
+The data are provided in this respository as text file with 26 columns of numbers, separated by spaces. Each row is a snapshot of data taken during a single operational cycle; each column is a different variable. 
 
 The columns correspond to: 
 1)  unit number 
