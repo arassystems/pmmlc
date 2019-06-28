@@ -34,7 +34,7 @@ The columns correspond to:
 You are free to use which technology and library you want. Because of better usability, we prefer Python-Notebooks. 
 
 ### Challenge
-A) Users are expected to train their algorithms using data in the file named train.txt. They must then evaluate  the  RUL  prediction  performance  on  data  provided  in  file  test.txt.  The resulting RUL values must be in top three, to be awarded for the prize. 
+A) Users are expected to train their algorithms using data in the file named train.txt. They must then evaluate  the  RUL  prediction  performance  on  data  provided  in  file  test.txt.  Very good solutions will be awarded for the prize (financial and/or working with us as an employee). 
 
 B) Candidates shall take the data in train.txt and delete column "unit number". Afterwards, an algorithm shall be applied to determine the several unit numbers from there behaviour (clustering).
 
