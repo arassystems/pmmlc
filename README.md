@@ -1,6 +1,6 @@
 # Predictive Maintenance Machine Learning Challenge
 
-##About ARAS Systems GmbH & Co. KG
+## About ARAS Systems GmbH & Co. KG
 
 We would like to give committed talents worldwide the opportunity to prove themselves in the area of machine learning and predictive maintenance. Before you start the challenge, please register with mlchallenge@arassystems.de.
 
