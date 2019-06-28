@@ -8,17 +8,30 @@ ARAS Systems GmbH & Co. KG is a technology company offering development services
 
 ## Introduction to the machine learning challenge
 
+This challenge shall give machine learning enthusiasts from all over the world a chance to work with us. The winner will be rewarded with attractive prizes - please get in contact with us explicitly. Depending on your background we offer different prices.
 
-That's why we want to give this challenge a chance to challenge machine learning enthusiasts from all over the world. Naturally, the winner will be rewarded with attractive prizes - please get in contact with us explicitly. Depending on your background we offer different prices.
+### Challenge description
+Data sets consist of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine – i.e., the data can be considered to be from a fleet of engines of  the  same  type.  Each  engine  starts  with  different  degrees  of  initial  wear  and  manufacturing variation  which  is  unknown  to  the  user.  This  wear  and  variation  is  considered  normal,  i.e.,  it  is  not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data are contaminated with sensor noise. 
 
-To task description:
-Machine data are, for example, log values ​​of sensors and actuators. These values ​​can be temperature, pressure, voltage, current, etc. Since we are not allowed to load this data into the Challenge for confidentiality reasons, we will use NASA aircraft turbine data.
+The  engine  is  operating  normally  at  the  start  of  each  time  series,  and  starts  to  degrade  at  some  point during the series. In the training set, the degradation grows in magnitude until a predefined threshold is reached beyond which it is not preferable to operate the engine. In the test set, the time series ends some time  prior  to  complete  degradation.  The  objective  of  the  competition  is  to  predict  the  number  of remaining operational cycles before in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate properly. 
 
-In the end, these turbine data are similar to machine data. Because similar to industrial production plants aircraft turbines have different states. A newly started turbine has a different temperature value than a turbine that has been in use for 10 hours. A turbine in Russia has a different temperature level than a similar turbine in Singapore under high humidity conditions.
+### Usage
+The data are provided as a zip-compressed text file with 26 columns of numbers, separated by spaces. Each row is a snapshot of data taken during a single operational cycle; each column is a different variable. 
 
-The first step in this challenge is to design a machine learning model that learns the normal behavior of each turbine and detects the anomaly. Here, the remaining life of the engine is to be found out.
-In the second step, the data without motor designation should be read in and clustered. The clustering should learn different normal states and derive anomalies from them.
-Feedback geben
-Verlauf
-Gespeichert
-Community
+The columns correspond to: 
+1)  unit number 
+2)  time, in cycles 
+3)  operational setting 1 
+4)  operational setting 2 
+5)  operational setting 3 
+6)  sensor measurement  1 
+7)  sensor measurement  2 
+... 
+26)  sensor measurement  26 
+
+### Challenge
+A) Users are expected to train their algorithms using data in the file named train.txt. They must then evaluate  the  RUL  prediction  performance  on  data  provided  in  file  test.txt.  The resulting RUL values must be in top three, to be awarded for the price. 
+
+B) Candidates shall take the data in train.txt and delete column "unit number". Afterwards, an algorithm shall be applied to determine the several unit numbers from there behaviour (clustering).
+
+--> Very Important: Contat us if you don't undestand the challenge well. 
