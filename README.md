@@ -2,9 +2,9 @@
 
 ## About ARAS Systems GmbH & Co. KG
 
-We would like to give committed talents worldwide the opportunity to prove themselves in the area of machine learning and predictive maintenance. Before you start the challenge, please register with mlchallenge@arassystems.de.
+We would like to give committed talents worldwide the opportunity to prove themselves in the area of machine learning and predictive maintenance. Before you start the challenge, please register at mlchallenge@arassystems.de.
 
-ARAS Systems GmbH & Co. KG is a technology company offering development services in the field of industrial automation. Among other things, we develop software for industrial control systems and embedded systems. Besides programming software for control systems ARAS Systems GmbH & Co. KG also develops solutions in the area of Industry 4.0. Therefore, this challenge is in the area of predictive maintenance for production machines. 
+ARAS Systems GmbH & Co. KG is a technology company offering development services in the field of industrial automation. Among other things, we develop software for industrial control systems and embedded systems. Besides programming software for control systems ARAS Systems GmbH & Co. KG also develops solutions in the area of Industry 4.0. Therefore, this challenge tackles predictive maintenance for production machines. 
 
 ## Introduction to the machine learning challenge
 
