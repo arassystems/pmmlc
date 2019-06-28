@@ -30,6 +30,9 @@ The columns correspond to:
 ... 
 26)  sensor measurement  26 
 
+### Prefered technology
+You are free to use which technology and library you want. Because of better usability, we prefer Python-Notebooks. 
+
 ### Challenge
 A) Users are expected to train their algorithms using data in the file named train.txt. They must then evaluate  the  RUL  prediction  performance  on  data  provided  in  file  test.txt.  The resulting RUL values must be in top three, to be awarded for the prize. 
 
