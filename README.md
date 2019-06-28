@@ -9,7 +9,7 @@ ARAS Systems GmbH & Co. KG is a technology company offering development services
 ## Introduction to the machine learning challenge
 
 ### Winner's award
-This challenge shall give machine learning enthusiasts from all over the world a chance to work with us. The winner will be rewarded with attractive prizes - please get in contact with us explicitly. After getting in touch with us, we will share with you our requirements to win the prize. Please note, depending on your background we offer different prizes. Prizes can be in financial or employment terms.
+This challenge shall give machine learning enthusiasts from all over the world a chance to work with us. The winner will be rewarded with attractive prizes - please get in contact with us explicitly. After getting in touch with us, we will share with you our requirements to win the prize. Please note, depending on your background we offer different prizes. Prizes can be in financial terms or in being employed by ARAS Systems GmbH & Co. KG. 
 
 ### Challenge description
 Data sets consist of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine – i.e., the data can be considered to be from a fleet of engines of  the  same  type.  Each  engine  starts  with  different  degrees  of  initial  wear  and  manufacturing variation  which  is  unknown  to  the  user.  This  wear  and  variation  is  considered  normal,  i.e.,  it  is  not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data are contaminated with sensor noise. 
