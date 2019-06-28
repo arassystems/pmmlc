@@ -8,6 +8,7 @@ ARAS Systems GmbH & Co. KG is a technology company offering development services
 
 ## Introduction to the machine learning challenge
 
+### Winner's award
 This challenge shall give machine learning enthusiasts from all over the world a chance to work with us. The winner will be rewarded with attractive prizes - please get in contact with us explicitly. After getting in touch with us, we will share with you our requirements to win the price. Please note, depending on your background we offer different prices.
 
 ### Challenge description
