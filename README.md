@@ -39,3 +39,6 @@ A) Users are expected to train their algorithms using data in the file named tra
 B) Candidates shall take the data in train.txt and delete column "unit number". Afterwards, an algorithm shall be applied to determine the several unit numbers from there behaviour (clustering).
 
 --> Very Important: Contat us if you don't undestand the challenge well. 
+
+### Possible ideas
+You might also do this: You could create two labels in this classification problem, one label predicts if the machine will break down within 10 cycles or not. Another label can be spearated into 3 categories, 1. Machine that may breaks within 15 cycles, 2. Machine that may breaks in between 15 and 30 cycles, 3. Machine that will not break down.
